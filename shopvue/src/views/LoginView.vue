@@ -25,7 +25,7 @@ import { mapState } from 'vuex'
 export default {
   name: 'LoginView',
   data() {
-    return { username: 'emilys', password: 'emilyspass' }
+        return { username: '', password: '' }
   },
   computed: {
     ...mapState('auth', ['loading', 'error'])
